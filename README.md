@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Sistema de Control de Inventario y Ventas
 
-# Run and deploy your AI Studio app
+Este proyecto es una aplicación web full-stack diseñada para la gestión automatizada de inventarios, registro de ventas en tiempo real y optimización de stock comercial. Cuenta además con una integración con inteligencia artificial para análisis avanzados y alertas.
 
-This contains everything you need to run your app locally.
+## 🚀 Características Principales
 
-View your app in AI Studio: https://ai.studio/apps/4165c88d-3f16-4db4-a17f-33bec804cbf3
+* **Gestión de Productos:** Altas, bajas, modificaciones y control de niveles de stock (actual y mínimo).
+* **Registro de Ventas:** Procesamiento de salidas de mercancía con actualización automática del inventario disponible.
+* **Historial de Operaciones:** Almacenamiento seguro de transacciones realizadas.
+* **Módulo de Consola:** Soporte para ejecución e interacción con scripts secundarios en segundo plano.
+* **Soporte IA:** Preparado para conectar con modelos de lenguaje (Gemini API) para asistencia inteligente.
 
-## Run Locally
+## 🛠️ Tecnologías Utilizadas
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* **Frontend:** React (TypeScript), Tailwind CSS para el diseño de la interfaz de usuario.
+* **Backend:** Node.js con Express para la arquitectura del servidor y APIs REST.
+* **Herramientas de Construcción:** Vite y Esbuild.
