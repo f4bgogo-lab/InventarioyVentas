@@ -1,0 +1,6 @@
+{
+  "name": "Control de Inventario y Ventas",
+  "description": "Sistema completo para control de stock, registro de ventas en tiempo real, historial y alertas automáticas de reabastecimiento.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
